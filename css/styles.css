@@ -1,0 +1,94 @@
+body {
+  background-color: #444;
+  color: #fff;
+}
+.wrapper {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.task {
+  position: relative;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.task__add {
+  position: absolute;
+  top: 25%;
+  right: 0;
+
+  width: 1em;
+  border: none;
+  font-size: 2.5em;
+
+  cursor: pointer;
+}
+.task__table {
+  width: 100%;
+}
+.task__thead {
+  background-color: rgba(255, 43, 5, 0.377);
+}
+.task__th,
+.task__td {
+  padding: 1em;
+  text-align: center;
+}
+.task__tr-th {
+}
+.task__th {
+  font-weight: bold;
+}
+.task__tb {
+  min-height: 40em;
+  /* background-color: antiquewhite; */
+}
+.task__tr-tb {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.555);
+}
+.form {
+  padding: 1em;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  box-shadow: 0px 7px 13px -7px #fff;
+}
+.form__label {
+  width: 100%;
+
+  margin-bottom: 0.5em;
+}
+.form__input {
+  width: 100%;
+
+  margin-bottom: 2em;
+  padding: 0.3em;
+}
+.form__add {
+  width: 8em;
+  padding: 0.5em;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+.task__td--flex {
+  display: flex;
+  column-gap: 1em;
+  justify-content: center;
+}
+.task__edit,
+.task__delete {
+  width: 2em;
+}
+.task__edit {
+  color: rgb(255, 217, 146);
+}
+.task__delete {
+  color: rgb(245, 6, 6);
+}
